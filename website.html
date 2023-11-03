@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediMate</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: linear-gradient(40deg,
+                hsl(240deg 56% 48%) 0%,
+                hsl(250deg 48% 49%) 10%,
+                hsl(260deg 40% 49%) 24%,
+                hsl(271deg 34% 50%) 42%,
+                hsl(285deg 28% 50%) 57%,
+                hsl(305deg 24% 50%) 68%,
+                hsl(325deg 29% 54%) 75%,
+                hsl(340deg 34% 58%) 81%,
+                hsl(354deg 40% 62%) 85%,
+                hsl(358deg 39% 63%) 89%,
+                hsl(353deg 31% 62%) 92%,
+                hsl(345deg 22% 61%) 94%,
+                hsl(330deg 14% 60%) 96%,
+                hsl(284deg 9% 60%) 97%,
+                hsl(232deg 12% 62%) 98%,
+                hsl(212deg 22% 61%) 99%,
+                hsl(204deg 32% 60%) 100%,
+                hsl(200deg 41% 58%) 100%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    nav {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+        border: 1cm;
+        border-color: black;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        border: 5px;
+        border-color: black;
+    }
+
+    nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-weight: bolder;
+    }
+
+    header nav .left {
+        font-size: 1.5rem;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem;
+        align-items: center;
+    }
+
+
+    .right_section {
+        width: 50%;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+        margin-top: 80px;
+        margin-left: 300px;
+        animation: both;
+        animation-delay: 6ms;
+        animation-delay: 6ms;
+    }
+
+    .left_section {
+        font-size: 3rem;
+        width: 50%;
+
+    }
+
+    #typed2 {
+        color: white;
+    }
+
+    .purple {
+        color: white;
+    }
+
+    link :visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    hr {
+        margin: 45px 20px;
+    }
+
+    .link2 {
+        margin-left: 575px;
+        align-self: center;
+        font-size: 1.5rem;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .link2:hover {
+        font-style: oblique;
+    }
+
+    .link {
+        align-self: center;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        margin-top: 3.7cm;
+    }
+
+    .left {
+        color: white;
+    }
+
+    .centre {
+        color: white;
+        margin-right: 22cm;
+    }
+    .Sex{
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        margin-right: 705px;
+    }
+</style>
+
+<body>
+    <script src="file.js9"></script>
+    <header>
+        <nav>
+            <div class="left">
+                MediMate</div>
+            <a class="Sex" href="home_page.html">SexEd Bot</a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="project_info.html">About Us</a></li>
+                    <li><a href="contact2.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="left_section">
+
+                <span>MediMate:</span> <br> Revolutionizing <span id="typed2"></span>
+            </div>
+            <div class="right_section">
+                <img src="screen_shot_2020-02-20_at_1.06.10_pm-removebg-preview.png" alt="Error loading image">
+            </div>
+
+        </section>
+    </main>
+    <hr>
+    <div>
+        <a class="link2"
+            href="https://mediafiles.botpress.cloud/99f0b486-0e22-4ccd-b901-ffec7d70ad8b/webchat/bot.html">Click
+            Here</a><span class="link"> to open chatbot seperately.</span>
+    </div>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/3cdf11d2-d8d5-4d03-9555-3f09c5bf1565/webchat/config.js"
+        defer></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed2 = new Typed('#typed2', {
+            strings: ['Healthcare', 'Life', 'World'],
+            typeSpeed: 80,
+            backSpeed: 20,
+            fadeOut: true,
+            loop: true
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: #42455a;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    section {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section:nth-child(1) {
+        color: #e0ffff;
+    }
+
+    section:nth-child(2) {
+        color: #42455a;
+        background: #e0ffff;
+    }
+
+    section:nth-child(3) {
+        color: #e0ffff;
+    }
+
+    section:nth-child(4) {
+        color: #42455a;
+        background: #e0ffff;
+    }
+
+    section .container {
+        margin: 100px;
+    }
+
+    section h1 {
+        font-size: 3rem;
+        margin: 20px;
+    }
+
+    section h2 {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    section .text-container {
+        display: flex;
+    }
+
+    section .text-container .text-box {
+        margin: 20px;
+        padding: 20px;
+        background: #00c2cb;
+    }
+
+    section .text-container .text-box h3 {
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 900px) {
+        section h1 {
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        section .text-container {
+            flex-direction: column;
+        }
+    }
+
+    .text .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 1s all ease;
+    }
+
+    .reveal.active {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .center {
+        align-self: center;
+    }
+
+
+
+
+    nav {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        background-color: black;
+        border: 1cm;
+        border-color: black;
+        width: 41cm;
+        visibility: visible;
+        z-index: 999;
+        position: relative;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-weight: bolder;
+    }
+
+    header nav .left {
+        margin-right: 15cm;
+        font-size: 1.5rem;
+    }
+</style>
+
+<body>
+    <script src="file.js"></script>
+    <header>
+        <nav>
+            <div class="left" style="color:#ffffff;" ;>
+                MediMate </div>
+            <div class="right">
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="project_info.html">About Us</a></li>
+                    <li><a href="contact2.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Welcome to MediMate!</h1> <br>
+    </section>
+    <section>
+        <div class="container reveal">
+            <h2>Your Personal Health Assistant 24/7</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>Instant Health Guidance</h3>
+                    <p>
+                        At HealthWise, we understand that managing your health can be challenging, and it's not always
+                        easy to find the information you need.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Wellness Tips</h3>
+                    <p>
+                        That's where our chatbot comes in your reliable, round-the-clock companion for all your health
+                        concerns.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Symptom Checker</h3>
+                    <p>
+                        Describe your symptoms, and our chatbot will help you understand potential causes and next
+                        steps.
+                    </p>
+                </div>
+    </section>
+
+    <section>
+        <div class="container reveal">
+            <h2>Why Choose MediMate:</h2>
+            <div class="text-container">
+                <div class="text-box">
+                    <h3>Trustworthy Info</h3>
+                    Our chatbot provides medically reviewed information to ensure your safety and well-being.
+                    <p>
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>User-Friendly</h3>
+                    <p>Whether you're tech-savvy or new to digital tools, our chatbot is designed for easy navigation.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Privacy Priority</h3>
+                    <p>
+                        Your data is kept secure and confidential. We're committed to safeguarding your privacy.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section style="background-color: #e0ffff;">
+        <div class="container reveal">
+            <h2>More about us</h2>
+            <div class="text-container">
+
+                <div class="text-box">
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to empower individuals like you to make informed decisions about your health,
+                        improve
+                        your well-being, and lead healthier lives. We believe that access to reliable health information
+                        should
+                        be at your fingertips.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Join Our Community</h3>
+                    <p>
+                        Join our ever-growing community of users who have discovered the convenience and benefits of
+                        MediMate . Together, we're committed to making health a top priority.
+                    </p>
+                </div>
+                <div class="text-box">
+                    <h3>Need Assistance?</h3>
+                    <p>
+                        At MediMate, we're committed to providing you with the best possible support and guidance. If
+                        you have any questions, concerns, or require assistance, our dedicated support team is here to
+                        help.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
